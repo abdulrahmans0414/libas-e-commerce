@@ -112,3 +112,50 @@ body {
     left: 20px;
 }
 
+/* Hero Section Style */
+
+#hero {
+    background-image: url("/img/banner3.webp");
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#hero button {
+    background-color: #088178;
+    color: #fff;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+}
+
+/* Button hover effect */
+#hero button:hover {
+    background-color: #1fa599; /* Change button color on hover */
+    transform: scale(1.05); /* Scale up the button on hover */
+}
+
+/* Button arrow icon hover effect */
+#hero button:hover::after {
+    right: 40px; /* Move the arrow icon to the right on hover */
+}
