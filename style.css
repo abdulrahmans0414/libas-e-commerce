@@ -543,6 +543,7 @@ footer .col {
     margin-bottom: 20px;
 }
 
+
 footer .logo {
     margin-bottom: 30px;
     text-decoration: none;
@@ -605,6 +606,50 @@ footer .copyright {
     width: 100%;
     text-align: center;
 }
+
+
+
+/*Shop Page style*/
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+p {
+    color: #131212;
+}
+
+#pagination {
+    text-align: center;
+
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
 
 /* Media Query for iPad Screen Size */
 
@@ -729,7 +774,7 @@ footer .copyright {
 
 /* for small size screen mobile device */
 
-@media (min-width: 477px) {
+@media (max-width: 477px) {
     .section-p1 {
         padding: 20px;
     }
@@ -787,7 +832,7 @@ footer .copyright {
     }
 
     #banner3 .banner-box {
-        width:100%;
+        width: 100%;
     }
 
     /* news letter */
@@ -800,22 +845,8 @@ footer .copyright {
     }
 
     footer .copyright {
+        width: 100%;
         text-align: start;
-    }
-
-    /* Single product page */
-    #prodetails {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #prodetails .single-pro-image {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-    #prodetails .single-pro-details {
-        width: 100%;
     }
 
 }
