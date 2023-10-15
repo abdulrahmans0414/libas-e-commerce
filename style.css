@@ -147,6 +147,17 @@ body {
     left: 20px;
 }
 
+/* for small device navbar */
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+
 /* Hero Section Style */
 
 #hero {
@@ -321,7 +332,7 @@ body {
     color: #088178;
 }
 
-#Product1 .pro .cart{
+#Product1 .pro .cart {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -532,7 +543,7 @@ footer .col {
     margin-bottom: 20px;
 }
 
-footer .logo { 
+footer .logo {
     margin-bottom: 30px;
     text-decoration: none;
     font-family: "Arial", sans-serif;
@@ -593,4 +604,124 @@ footer a:hover {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+/* Media Query for iPad Screen Size */
+
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    /* hero section */
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    /* feature section */
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    /* product section */
+
+    #Product1 .pro-container {
+        justify-content: center;
+    }
+
+    #Product1 .pro {
+        margin: 15px;
+    }
+
+    /* banner section */
+
+    #banner {
+        height: 30vh;
+    }
+
+    #sm-banner .banner-box {
+
+        min-width: 100%;
+        height: 30vh;
+
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    /* fix small 3 text banner section */
+
+    #banner3 {
+        padding: 0 40px;
+
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    /* news letter */
+
+    #newsletter .form {
+        width: 70%;
+    }
+
 }
