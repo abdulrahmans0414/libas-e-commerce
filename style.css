@@ -1,5 +1,5 @@
 /* cdn link for google font */
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:ital,wght@0,400;0,500;1,200;1,300;1,600&display=swap");
 
 * {
     margin: 0;
@@ -321,13 +321,12 @@ body {
     color: #088178;
 }
 
-#Product1 .pro .cartIcon {
+#Product1 .pro .cart{
     width: 40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
     background-color: #cdebbc;
-    font-weight: 500;
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
@@ -516,4 +515,82 @@ body {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
+}
+
+/* footer Section Style*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo { 
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(43, 41, 41, 0.5);
+}
+
+footer .logo:hover {
+    color: #088178;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer follow {
+    margin-top: 20px;
+}
+
+footer follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 8px;
+}
+
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
 }
