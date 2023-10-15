@@ -73,7 +73,7 @@ body {
 
 #header .logo {
     text-decoration: none;
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: bold;
     font-size: 24px;
     color: #1a1a1a;
@@ -190,7 +190,6 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
- 
 }
 
 #feature .fe-box:hover {
@@ -230,4 +229,83 @@ body {
 
 #feature .fe-box:nth-child(6) h6 {
     background-color: #fff2e5;
+}
+
+/* Product Section Style */
+
+#Product1 {
+    text-align: center;
+}
+
+#Product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#Product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+
+}
+
+#Product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#Product1 .pro img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#Product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#Product1 .pro .des span {
+    color: #606063;
+    font-size: 12px;
+}
+
+#Product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#Product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#Product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#Product1 .pro .cartIcon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #cdebbc;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
