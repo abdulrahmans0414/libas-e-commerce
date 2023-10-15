@@ -370,7 +370,7 @@ body {
     color: #fff;
 }
 
-/* Small Banner Style */
+/* Small Banner section Style */
 
 #sm-banner {
     display: flex;
@@ -419,7 +419,7 @@ body {
     border: 1px solid #088178;
 }
 
-/* Small 3 Text Banner */
+/* Small 3 Text Banner Section style */
 
 #banner3 {
     display: flex;
@@ -461,4 +461,59 @@ body {
     color: rgb(187, 39, 39);
     font-size: 15px;
     font-weight: 800;
+}
+
+/* Newsletter section Style */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("/img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    color: #ffbd7f;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.25rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
 }
