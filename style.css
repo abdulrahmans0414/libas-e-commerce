@@ -784,6 +784,21 @@ p {
     background-image: url("/img/about/banner.png");
 }
 
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+
 
 
 /* Media Query for iPad Screen Size */
