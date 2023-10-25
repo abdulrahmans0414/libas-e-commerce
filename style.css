@@ -778,6 +778,11 @@ p {
     z-index: -9;
 }
 
+/* About page style */
+
+#page-header.about-header {
+    background-image: url("/img/about/banner.png");
+}
 
 
 
