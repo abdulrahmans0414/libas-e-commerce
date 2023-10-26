@@ -1071,6 +1071,17 @@ p {
         width: 70%;
     }
 
+    /* contact page style */
+
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 50%;
+    }
+
+
 }
 
 
@@ -1205,4 +1216,5 @@ p {
     #about-app .video {
         width: 100%;
     }
+
 }
