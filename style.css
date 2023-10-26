@@ -1056,18 +1056,20 @@ p {
     }
 
     /* About page  */
-    #about-head{  
+    #about-head {
         flex-direction: column;
     }
-    #about-head img{  
+
+    #about-head img {
         width: 100%;
         margin-bottom: 20px;
     }
-    #about-head div{  
-      padding-left: 0;
+
+    #about-head div {
+        padding-left: 0;
     }
 
-    #about-app .video{
-       width: 100%; 
+    #about-app .video {
+        width: 100%;
     }
 }
