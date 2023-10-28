@@ -38,7 +38,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #465b52;
+    color: #474545;
     margin: 15px 0 20px 0;
 }
 
@@ -624,7 +624,7 @@ footer .copyright {
 
 #page-header h2,
 p {
-    color: #131212;
+    color: #ffffff;
 }
 
 #pagination {
@@ -936,6 +936,67 @@ p {
 }
 
 
+/* Cart Page Style */
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 70px;
+
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0 ;
+
+}
+#cart table tbody tr td{
+    padding-top: 15px ;
+
+}
+#cart table tbody td{
+    font-size: 15px ;
+
+}
 
 
 
