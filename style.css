@@ -157,7 +157,6 @@ body {
     display: none;
 }
 
-
 /* Hero Section Style */
 
 #hero {
@@ -291,7 +290,6 @@ body {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
-
 }
 
 #Product1 .pro:hover {
@@ -452,7 +450,6 @@ body {
     margin-bottom: 20px;
 }
 
-
 #banner3 .banner-box2 {
     background-image: url("/img/banner/b4.jpg");
 }
@@ -525,7 +522,6 @@ body {
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-
 }
 
 /* footer Section Style*/
@@ -542,7 +538,6 @@ footer .col {
     align-items: flex-start;
     margin-bottom: 20px;
 }
-
 
 footer .logo {
     margin-bottom: 30px;
@@ -592,7 +587,6 @@ footer .install .row img {
     border-radius: 8px;
 }
 
-
 footer .install img {
     margin: 10px 0 15px 0;
 }
@@ -606,8 +600,6 @@ footer .copyright {
     width: 100%;
     text-align: center;
 }
-
-
 
 /*Shop Page style*/
 #page-header {
@@ -629,7 +621,6 @@ p {
 
 #pagination {
     text-align: center;
-
 }
 
 #pagination a {
@@ -666,13 +657,11 @@ p {
 .small-img-col {
     flex-basis: 24%;
     cursor: pointer;
-
 }
 
 #prodetails .single-pro-details {
     width: 50%;
     padding-top: 30px;
-
 }
 
 #prodetails .single-pro-details h4 {
@@ -695,7 +684,6 @@ p {
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
-
 }
 
 #prodetails .single-pro-details input:focus {
@@ -751,7 +739,6 @@ p {
     font-weight: 700;
     position: relative;
     transition: 0.3s;
-
 }
 
 #blog .blog-details a::after {
@@ -815,7 +802,6 @@ p {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-
 }
 
 /* Contact Page Style */
@@ -823,18 +809,15 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 #contact-details .details {
     width: 40%;
-
 }
 
 #contact-details .details span,
 #form-details from span {
     font-size: 12px;
-
 }
 
 #contact-details .details h2,
@@ -842,7 +825,6 @@ p {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
-
 }
 
 #contact-details .details h3 {
@@ -883,7 +865,6 @@ p {
     margin: 30px;
     padding: 80px;
     border: 1px solid #e1e1e1;
-
 }
 
 #form-details form {
@@ -919,7 +900,6 @@ p {
     object-fit: cover;
     margin-right: 15px;
     border-radius: 50%;
-
 }
 
 #form-details .people div p {
@@ -935,7 +915,6 @@ p {
     color: #000;
 }
 
-
 /* Cart Page Style */
 #cart table {
     width: 100%;
@@ -946,7 +925,6 @@ p {
 
 #cart table img {
     width: 70px;
-
 }
 
 #cart table td:nth-child(1) {
@@ -976,31 +954,78 @@ p {
     padding: 10px 5px 10px 15px;
 }
 
-#cart table thead{
+#cart table thead {
     border: 1px solid #e2e9e1;
     border-left: none;
     border-right: none;
 }
 
-#cart table thead td{
+#cart table thead td {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
-    padding: 18px 0 ;
-
-}
-#cart table tbody tr td{
-    padding-top: 15px ;
-
-}
-#cart table tbody td{
-    font-size: 15px ;
-
+    padding: 18px 0;
 }
 
+#cart table tbody tr td {
+    padding-top: 15px;
+}
 
+#cart table tbody td {
+    font-size: 15px;
+}
 
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+
+}
 
 
 
@@ -1031,11 +1056,10 @@ p {
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #E3E6F3;
+        background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
         padding: 80px 0 0 10px;
         transition: 0.3s;
-
     }
 
     #navbar.active {
@@ -1044,7 +1068,6 @@ p {
 
     #navbar li {
         margin-bottom: 25px;
-
     }
 
     #mobile {
@@ -1065,7 +1088,6 @@ p {
         left: 30px;
         color: #222;
         font-size: 24px;
-
     }
 
     #lg-bag {
@@ -1105,10 +1127,8 @@ p {
     }
 
     #sm-banner .banner-box {
-
         min-width: 100%;
         height: 30vh;
-
     }
 
     #sm-banner .banner-box2 {
@@ -1119,7 +1139,6 @@ p {
 
     #banner3 {
         padding: 0 40px;
-
     }
 
     #banner3 .banner-box {
@@ -1141,10 +1160,7 @@ p {
     #form-details form {
         width: 50%;
     }
-
-
 }
-
 
 /* for small size screen mobile device */
 
@@ -1232,7 +1248,6 @@ p {
     #prodetails .single-pro-image {
         width: 100%;
         margin-right: 0px;
-
     }
 
     #prodetails .single-pro-details {
@@ -1294,7 +1309,6 @@ p {
     }
 
     #form-details {
-
         margin: 10px;
         padding: 30px 10px;
         flex-wrap: wrap;
@@ -1304,7 +1318,4 @@ p {
         width: 100%;
         margin-bottom: 30px;
     }
-
-
-
 }
