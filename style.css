@@ -297,9 +297,13 @@ body {
 }
 
 #Product1 .pro img {
-    height: auto;
     width: 100%;
+    height: 70%;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 #Product1 .pro .des {
@@ -845,6 +849,7 @@ p {
 
 #contact-details .details li p {
     font-size: 14px;
+    color: #1a1a1a;
     margin: 0;
 }
 
@@ -903,6 +908,7 @@ p {
 }
 
 #form-details .people div p {
+    color: #1a1a1a;
     margin: 0;
     font-size: 13px;
     line-height: 25px;
