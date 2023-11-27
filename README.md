@@ -14,12 +14,12 @@ Libas E-Commerce is a web application designed for online clothing shopping. Thi
 
 1. Clone the repository:
 ```
-git clone https://github.com/abdulrahmans0414/E-commerce.git
+git clone https://github.com/abdulrahmans0414/libas-e-commerce.git
 ```
 
 2. Navigate to the project directory:
 ```
-cd E-commerce
+cd libas-e-commerce
 ```
 
 
