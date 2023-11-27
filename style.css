@@ -282,7 +282,7 @@ body {
 #Product1 .pro {
     width: 23%;
     min-width: 250px;
-    padding: 10px 12px;
+    padding: 17px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
@@ -395,7 +395,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("/img/banner/b17.jpg");
+    background-image: url("/img/banner/bn2.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -404,7 +404,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url("/img/banner/b10.jpg");
+    background-image: url("/img/banner/bn3.jpg");
 }
 
 #sm-banner h4 {
@@ -455,7 +455,7 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url("/img/banner/b4.jpg");
+    background-image: url("/img/banner/bn4.webp");
 }
 
 #banner3 .banner-box3 {
@@ -619,10 +619,10 @@ footer .copyright {
     padding: 14px;
 }
 
-#page-header h2,
+/* #page-header h2,
 p {
     color: #ffffff;
-}
+} */
 
 #pagination {
     text-align: center;
