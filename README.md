@@ -22,5 +22,16 @@ git clone https://github.com/abdulrahmans0414/libas-e-commerce.git
 cd libas-e-commerce
 ```
 
+## Contributing
+Contributions are welcome! If you'd like to contribute to libas-e-commerce, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-feature`
+5. Open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 
